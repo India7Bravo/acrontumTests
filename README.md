@@ -11,6 +11,7 @@ What the test does, is it's able to follow the journey of a user logging in, add
 
 * Ensure that you have NPM installed on your machine.
 * Ensure that you have Cypress installed on your machine.
+
 If you do not have them installed, please install them from https://nodejs.org/en/download/ and https://www.cypress.io/ before running the tests
 
 * Make sure to either clone or download a copy of the code
