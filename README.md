@@ -1,2 +1,2 @@
 # acrontumTests
-A automated user journey test scenario for Acrontum
+An automated user journey test scenario for Acrontum
