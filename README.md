@@ -9,12 +9,15 @@ What the test does, is it's able to follow the journey of a user logging in, add
 
 # How to run the tests
 
+* Ensure that you have NPM installed on your machine.
+* Ensure that you have Cypress installed on your machine.
+If you do not have them installed, please install them from https://nodejs.org/en/download/ and https://www.cypress.io/ before running the tests
+
 * Make sure to either clone or download a copy of the code
 * Open the folder in your preferred IDE
-* Run: "npm install"
-* Run: "npx cypress open" to open cypress
+* Run: "npx cypress open" in the built in terminal to open cypress
 
-Once Cypress is open, run the Acrontum Tests :) 
+Once Cypress is open, run the Acrontum test suite :) 
 
 I hope you've enjoyed this :) 
 
