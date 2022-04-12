@@ -1,7 +1,7 @@
 
 # Acrontum Automation Test
 
-This project is for a lovely company named Acrontum. 
+This project is made for Acrontum. 
 
 What the test does, is it's able to follow the journey of a user logging in, adding a book to their collection and then deleting it at the end so when the tests need to be run again, they're able to perform the same journey without breakage.
 
@@ -18,9 +18,9 @@ If you do not have them installed, please install them from https://nodejs.org/e
 * Open the folder in your preferred IDE
 * Run: "npx cypress open" in the built in terminal to open cypress
 
-Once Cypress is open, run the Acrontum test suite :) 
+Once Cypress is open, run the Acrontum test suite.
 
-I hope you've enjoyed this :) 
+I hope you enjoy the test :) 
 
 
 
