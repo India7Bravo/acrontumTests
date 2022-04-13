@@ -7,13 +7,13 @@ describe("User journey QA challenge", () => {
 
     it('The user searches for one of the available books, opens it, adds to collection and verifies', () => {
         // User goes to the book store, searches for
-        // the book and clicks on it
+        // the book and clicks on it to go to the detail page
         cy.contains('Go To Book Store').scrollIntoView().click({force: true})
         cy.get('#searchBox').type('Elo')
         cy.contains("Eloquent").click({force: true})
 
         // Expands the elements side-bar menu to extend
-        // the page and help get to the profile section
+        // the page and get to the profile section
         cy.get(':nth-child(1) > .group-header > .header-wrapper').click()
 
         // Adds book to my collection
@@ -47,5 +47,8 @@ describe("User journey QA challenge", () => {
         cy.on('window:alert',(txt)=>{
             expect(txt).to.contains('Book deleted.');
          })
+
+        // Makes sure the book is deleted
+        cy.contains("Eloquent JavaScript, Second Edition").should('not.exist')
     })
 })

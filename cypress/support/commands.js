@@ -25,9 +25,13 @@
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 
 Cypress.Commands.add('goTo', (label) => {
-    cy.visit('https://demoqa.com/login').wait(1000)
+    cy.visit('https://demoqa.com/login')
     cy.contains('Login').should('be.visible')
     cy.get('#userName').click().type('India7Bravo')
     cy.get('#password').click().type('9CL5RDy4SgtXw2E!@')
     cy.get('#login').click()
+  });
+
+  Cypress.Commands.add('goToApp', (label) => {
+    cy.visit('https://demoqa.com/login')
   });
