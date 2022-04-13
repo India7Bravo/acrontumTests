@@ -5,7 +5,7 @@ This project is made for Acrontum.
 
 What the test does, is it's able to follow the journey of a user logging in, adding a book to their collection and then deleting it at the end so when the tests need to be run again, they're able to perform the same journey without breakage.
 
-**I would also like to say I have added a little bit of code to the file "index.json" to help avoid an error originating from the application code.
+**I would also like to say I have added a little bit of code (From line 24 onwards) to the file "index.json" to help avoid an error originating from the application code.
 
 # How to run the tests
 

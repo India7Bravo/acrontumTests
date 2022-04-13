@@ -20,6 +20,7 @@ import './commands'
 // require('./commands')
 
 //
+
 Cypress.on('uncaught:exception', (err, runnable) => {
 
 //     we expect a 3rd party library error with message 'e(...).setup is not a function'
